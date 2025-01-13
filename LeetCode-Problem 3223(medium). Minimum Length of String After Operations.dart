@@ -1,5 +1,5 @@
 /*
-3223. Minimum Length of String After Operations - Daily(13/01/24)
+3223. Minimum Length of String After Operations - Daily(13/01/25)
 
 You are given a string s.
 You can perform the following process on s any number of times:
