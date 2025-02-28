@@ -14,7 +14,7 @@ Explanation: There are two ways to climb to the top.
 */
 
 //1. Recursive (Memoisation)
-//Time complexity: O(2ⁿ)
+//Time complexity: O(n)
 //Space complexity: O(n)
 class Solution {
     Map<int, int> memo = {};
@@ -30,7 +30,7 @@ class Solution {
 }
 
 //2. DYNAMIC PROGRAMMING (Space Optimized)
-//Time complexity: O(logn)
+//Time complexity: O(n)
 //Space complexity: O(1)
 class Solution {
     int climbStairs(int n) {
@@ -47,7 +47,7 @@ class Solution {
 }
 
 //3. MATHEMATICAL APPROACH (Using formula for fibonacci: Binet’s formula) (OPTIMIZED)
-//Time complexity: O(n)
+//Time complexity: O(logn)
 //Space complexity: O(1)
 import 'dart:math' as math;
 
